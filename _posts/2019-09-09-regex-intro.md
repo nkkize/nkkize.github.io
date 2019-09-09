@@ -50,14 +50,14 @@
  2. /m (multi-line): will match the start and end of the line when '^' and '$' are used.
  3. /i (insensitive): make the whole expression case-insensitive
  
- ### Grouping
+### Grouping
  1. #### ()
     this creates a capturing group.
  2. #### ?: inside the patantesis ex: (?:chars)
     this disables the capturing group
  3. ?<name>
     this puts a name to the group
- > * (zero or more occurrences), +(one or more occurrences), and {} are called greedy operatoers as they match as far as then can. 
+ > `*` (zero or more occurrences), `+` (one or more occurrences), and `{}` are called greedy operatoers as they match as far as then can. 
  
- ### \btext\b 
-   This acts like a bounday. same as '^' and '$'
+### \btext\b 
+ 1. This acts like a bounday. same as '^' and '$'
