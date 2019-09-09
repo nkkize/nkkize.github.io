@@ -43,7 +43,7 @@
 4. #### .
    matches any character
 > 1. \D, \W, \S are there as their negations.
-> 2. in order to match these characters: ^, $, *, +, ?, (, ), {, |, }, [, ] we need to escape them using `\`.
+> 2. in order to match these characters: `^, $, *, +, ?, (, ), {, |, }, [, ]` we need to escape them using `\`.
 
 ### Flags
  regex usually comes like this: /regex/. At the end we can specify following:
