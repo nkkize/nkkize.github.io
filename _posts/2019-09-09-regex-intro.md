@@ -32,6 +32,7 @@
        - This matches a followed by b or c
     2. a[bc]
        - This matches a followed by b or c
+
 ### Character classes
 1. #### \d 
    matches a single digit
@@ -58,6 +59,7 @@
  3. ?<name>
     this puts a name to the group
  > `*` (zero or more occurrences), `+` (one or more occurrences), and `{}` are called greedy operatoers as they match as far as then can. 
+ 
  
 ### \btext\b 
  1. This acts like a bounday. same as '^' and '$'
