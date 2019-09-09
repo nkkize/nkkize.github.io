@@ -28,9 +28,9 @@
    
 ### OR operator
 1. #### | or []
-    1. a(b|c)
+    1. `a(b|c)`
        - This matches a followed by b or c
-    2. a[bc]
+    2. `a[bc]`
        - This matches a followed by b or c
 
 ### Character classes
