@@ -9,7 +9,7 @@
  
  Example : ^The end$ : matches "The end"
  
- ### Quantifiers:
+### Quantifiers:
  
 1. #### *
    This matches zero or more occurrences
@@ -60,4 +60,4 @@
  > * (zero or more occurrences), +(one or more occurrences), and {} are called greedy operatoers as they match as far as then can. 
  
  ### \btext\b 
-   this acts like a bounday. same as '^' and '$'
+   This acts like a bounday. same as '^' and '$'
