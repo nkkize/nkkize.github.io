@@ -1,4 +1,4 @@
-Background:
+### Background
 This blog post talks about sending out custom headers in a web request based on some custom logic using chrome extension.
 
 There might be a requirement where we need to send some custom headers to request a web page using a chrome extension.
