@@ -7,15 +7,12 @@ Since localStorage and sessionStorage are both instances of the Storage object, 
     <script>
         (function () {
             const _setItemStorage = Storage.prototype.setItem;
-            localStorage.prototype.setItem = function (key, value) {
+            Storage.prototype.setItem = function (key, value) {
                 if (this === window.localStorage) {
                     console.log("local storage key: " + key + " value: " + value);
-                    // write your OWN logic here
                 } else if (this === window.sessionStorage) {
                     console.log("session storage key: " + key + " value: " + value);
-                    // write your OWN logic here
                 }
-                // do what the setItem normally would do
                 return _setItemStorage.apply(this, arguments);
             }
         })();
