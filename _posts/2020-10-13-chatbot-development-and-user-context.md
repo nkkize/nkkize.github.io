@@ -23,14 +23,14 @@ When user ask such questions- there is a lot of context already set for the app 
 
 With this high level context already set, the app knows that the user query is about the order purchased and not about the new offers. However, to best answer the user’s question the app can now build a more specific context around the conversation by using user’s conversation history, user’s location in the mall etc.  Eg. from the history, the app knows the user’s last order info, the reward points user earned, discount etc. The app can also ask more specific question to build this context. However asking the user specific question to get more context may not be always the best option since it will involve further understanding user’s response. To explain it further let’s take an example of a user query: user says- I want to buy shoes. The app understands the user is a shopper who wants to buy shoes. Let’s take the example of the conversation:
 
-User: I want to buy shoes.
-Assistants: can you please tell me the colour of the shoes you want to buy? 
-User: white
-Assistant: What size? 
-User: 8
-Assistant: What type of shoes do you want to buy?
-User: sneakers
-Assistant: [gives options of the shoes]
+- User: I want to buy shoes.
+- Assistants: can you please tell me the colour of the shoes you want to buy? 
+- User: white
+- Assistant: What size? 
+- User: 8
+- Assistant: What type of shoes do you want to buy?
+- User: sneakers
+- Assistant: [gives options of the shoes]
 
 Let’s take another example of the same conversation:
 
