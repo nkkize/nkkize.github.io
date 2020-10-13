@@ -24,7 +24,7 @@ When user ask such questions- there is a lot of context already set for the app 
 With this high level context already set, the app knows that the user query is about the order purchased and not about the new offers. However, to best answer the user’s question the app can now build a more specific context around the conversation by using user’s conversation history, user’s location in the mall etc.  Eg. from the history, the app knows the user’s last order info, the reward points user earned, discount etc. The app can also ask more specific question to build this context. However asking the user specific question to get more context may not be always the best option since it will involve further understanding user’s response. To explain it further let’s take an example of a user query: user says- I want to buy shoes. The app understands the user is a shopper who wants to buy shoes. Let’s take the example of the conversation:
 
 - User: I want to buy shoes.
-- Assistants: can you please tell me the colour of the shoes you want to buy? 
+- Assistant: can you please tell me the colour of the shoes you want to buy? 
 - User: white
 - Assistant: What size? 
 - User: 8
@@ -34,11 +34,11 @@ With this high level context already set, the app knows that the user query is a
 
 Let’s take another example of the same conversation:
 
-User: I want to buy shoes.
-Assistants: can you please tell me the colour of the shoes you want to buy? 
-User: black
-Assistant: What size? 
-User: I want to order pizza.
+- User: I want to buy shoes.
+- Assistant: can you please tell me the colour of the shoes you want to buy? 
+- User: black
+- Assistant: What size? 
+- User: I want to order pizza.
 
 After this moment in the conversation the assistant gets confused and will not be able to get the size. 
 
@@ -46,9 +46,9 @@ The context comes here to the rescue.
 
 The assistant after getting the first question from the user can build a more detailed context for the user using his shopping history. Let’s suppose user recently bought blue jeans. Using that the assistant can build a context and use this information to ask further question. Let’s take this example:
 
-User: I want to buy shoes.
-Assistants: you recently bought the blue pair of jeans. The white casual sneakers would go well with the jeans. Do you want me to show you the casual shoes option?
-User: yes
-Assistant: [gives options of the shoes]
+- User: I want to buy shoes.
+- Assistant: you recently bought the blue pair of jeans. The white casual sneakers would go well with the jeans. Do you want me to show you the casual shoes option?
+- User: yes
+- Assistant: [gives options of the shoes]
 
 This is an simple example, but this is very effective. I will talk about creating context in more details in my upcoming blogs. Stay Tuned!!
