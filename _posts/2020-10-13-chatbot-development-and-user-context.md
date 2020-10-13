@@ -21,7 +21,10 @@ Let’s the user asks below questions to the assistant app:
 
 When user ask such questions- there is a lot of context already set for the app to answer the question. For example the app will know that the user is a customer who has ordered something in the mall or from online website. The user wants to get some information related to his previous purchases or recent offers.
 
-With this high level context already set, the app knows that the user query is about the order purchased and not about the new offers. However, to best answer the user’s question the app can now build a more specific context around the conversation by using user’s conversation history, user’s location in the mall etc.  Eg. from the history, the app knows the user’s last order info, the reward points user earned, discount etc. The app can also ask more specific question to build this context. However asking the user specific question to get more context may not be always the best option since it will involve further understanding user’s response. To explain it further let’s take an example of a user query: user says- I want to buy shoes. The app understands the user is a shopper who wants to buy shoes. Let’s take the example of the conversation:
+With this high level context already set, the app knows that the user query is about the order purchased and not about the new offers. However, to best answer the user’s question the app can now build a more specific context around the conversation by using user’s conversation history, user’s location in the mall etc.  Eg. from the history, the app knows the user’s last order info, the reward points user earned, discount etc. The app can also ask more specific question to build this context. However asking the user specific question to get more context may not be always the best option since it will involve further understanding user’s response. 
+
+### Using Contexts to build Response
+To explain it further let’s take an example of a user query: user says- I want to buy shoes. The app understands the user is a shopper who wants to buy shoes. Let’s take the example of the conversation:
 
 - User: I want to buy shoes.
 - Assistant: can you please tell me the colour of the shoes you want to buy? 
@@ -51,4 +54,5 @@ The assistant after getting the first question from the user can build a more de
 - User: yes
 - Assistant: [gives options of the shoes]
 
+### Conclusion
 This is an simple example, but this is very effective. I will talk about creating context in more details in my upcoming blogs. Stay Tuned!!
