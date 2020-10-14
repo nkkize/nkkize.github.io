@@ -1,5 +1,5 @@
 # nkkize.github.io
-less theory, more practical
+Less Theory, More Practical
 
 ```
 gem install bundler
