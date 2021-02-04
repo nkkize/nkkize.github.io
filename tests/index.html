@@ -14,12 +14,14 @@
             overflow: hidden;
         }
     </style>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js?name=aegis"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js?name=analytics"></script>
     <script>
-       document.cookie = 'requested=aegis; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/; SameSite=None; Secure';
-    </script>
-    <script src="https://github.com/nkkize/node-examples/blob/master/test.js?name=aegis"></script>
-    <script src="https://minion-bob.web.app/web.js?name=aegis"></script>
+       document.cookie = 'referred=referred; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/; SameSite=None; Secure';
+       document.cookie = 'analytics=analytics; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/; SameSite=None; Secure';
+       document.cookie = 'referred-analytics=referred-analytics; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/; SameSite=None; Secure';
+    </script>   
+    <script src="https://minion-bob.web.app/web.js?name=referred"></script>
+    <script src="https://github.com/nkkize/node-examples/blob/master/test.js?name=referred-analytics"></script>
     
 </head>
 
