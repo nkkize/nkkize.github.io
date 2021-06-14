@@ -12,7 +12,10 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Narender Kumar
 author-img: narender.jpg
 about-author: > # this means to ignore newlines until "social-twitter:"
-  I turn coffee :coffee: into code, use tabs over spaces and never broke production.
+  Experienced developer having first hand experience building scalable, distributed software applications for various domains.
+  Skilled in Java, Web Services, Spring, Hibernate, JavaScript, NodeJS, React, AWS and related tech stack. 
+  Strong professional with expertise in web/cloud applications, microservices, and real time applications. 
+  Avid explorer with a demonstrated history in research and development.
 social-twitter: nkkize
 social-github: nkkize 
 social-linkedin: nkkize
