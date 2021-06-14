@@ -10,7 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Narender Kumar
-author-img: {{site.baseurl}}/assets/img/narender.jpg
+author-img: narender.jpg
 about-author: > # this means to ignore newlines until "social-twitter:"
   Experienced developer having first hand experience building scalable, distributed software applications for various domains spanning across application security, eCommerce, productivity, healthcare, financial services and insurance.
   Skilled in Java, Web Services, Spring, Hibernate, JavaScript, NodeJS, React, AWS and related tech stack. 
