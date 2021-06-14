@@ -1,6 +1,16 @@
-### Background
+---
+layout: post
+title: Chatbots and User Context
+date: 2020-10-13 13:32:20 +0300
+description: chatbots and user context
+img: chatbots.jpg
+fig-caption: 
+tags: [Chatbots, user-context]
+---
+
 One of the important thing which human beings has created ever since the evolution is the Language. Language makes us to understand each other and communicate our thoughts. there are more than 1 million languages around the world. Imagine a person who can speak and write in Japanese only talking with a person who knows only English, this seems a real problem for both of them to communicate with each other. The same is the issue with the computers. We are living in the era of technological advancement where we are able to communicate with the computers in a natural way using the natural language we speak in our day to day life. Ex. Google assistant, amazon Alexa and so many other voice and chat assistants.  Language is not easy and hence making the computers to understand the natural language is really a tough job. There are natural language processing tools and services which helps us to convert voice to text and process the text to understand the intent of what we speak and extract the key information from the text so that computer can make wise decisions to reply in a smarter way using the key information. But this is not enough, sometimes we have to understand much more than this to reply to someone.  
 
+![chatbots]({{site.baseurl}}/assets/img/chatbots.jpg)
 ### User Context
 We have to get a better context around the conversation to respond. However building context is not as easy as it seems . We have to see a number of factors before building the context. In this blog  I will talk about some of the most important aspects from where we can build the context. There are
 
