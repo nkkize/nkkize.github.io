@@ -16,9 +16,9 @@ about-author: > # this means to ignore newlines until "social-twitter:"
   Skilled in Java, Web Services, Spring, Hibernate, JavaScript, NodeJS, React, AWS and related tech stack. 
   Strong professional with expertise in web/cloud applications, microservices, and real time applications. 
   Avid explorer with a demonstrated history in research and development.
-social-twitter: "https://twitter.com/nkkize"
+social-twitter: nkkize
 social-github: nkkize 
-social-linkedin: "https://www.linkedin.com/in/nkkize/"
+social-linkedin: nkkize
 social-email: "nk.snat@gmail.com"
 
 # Build Settings

@@ -1,3 +1,12 @@
+---
+layout: post
+title: Regex Intro
+date: 2020-09-09 13:32:20 +0300
+description: Regex Intro
+img: i-regex.png
+fig-caption: # Add figcaption (optional)
+tags: [regex]
+---
 ## Regex
 ### Aanchors:
 

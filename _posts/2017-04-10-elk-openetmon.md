@@ -1,3 +1,12 @@
+---
+layout: post
+title: ELK Opennetmon
+date: 2020-04-10 13:32:20 +0300
+description: ELK Opennetmon
+img: i-elk.png
+fig-caption: # Add figcaption (optional)
+tags: [elk, opennetmon]
+---
 # elk-opennetmon
 elk stack integration with opennetmon for network performance visualization. We are using Filebeat to forward the logs to logstash for processing.
 
