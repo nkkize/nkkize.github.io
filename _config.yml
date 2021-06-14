@@ -1,5 +1,31 @@
-name: Narender Kumar
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+title: Hello, world!
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-theme: jekyll-theme-cayman
+baseurl: "/"
+permalink: ':title/'
+url: "https://narender.is-a.dev" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Narender Kumar
+author-img: narender.jpg
+about-author: I am a ful stack developer focusing on application development. Always hungry to keep learning. # add description
+social-twitter: "https://twitter.com/nkkize"
+social-github: nkkize 
+social-linkedin: "https://www.linkedin.com/in/nkkize/"
+social-email: "nk.snat@gmail.com"
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

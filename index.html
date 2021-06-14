@@ -1,17 +1,19 @@
 ---
-layout: default
-title: Home
+layout: main
 ---
-<div class="blurb">
-	<h1></h1>
-	<p>
-	<em></em>
-	</br>//TODO: Add some more stuff about this site
-        </br>
-        Hey Reader! I'm Narender.
-        </br>
-        I'm an Experienced developer having first-hand experience building scalable, distributed software applications for various domains spanning across Application Security, eCommerce, Productivity, Healthcare, Financial Services and Insurance. I'm highly skilled in Java, Web Services, Spring, Hibernate, Javascript and related tech stack and a strong professional with expertise in web applications, microservices, and real-time applications. I'm an avid Explorer with a demonstrated history in research and development.
-        //TODO: Add more stuff about me.
-	</br>
-	To read my blogs please <a href="/blog">click here</a></p>
-</div><!-- /.blurb -->
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}
