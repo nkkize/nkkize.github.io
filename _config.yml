@@ -19,7 +19,7 @@ about-author: > # this means to ignore newlines until "social-twitter:"
 social-twitter: nkkize
 social-github: nkkize 
 social-linkedin: nkkize
-social-email: "nk.snat@gmail.com"
+social-email: "nkk.snat@gmail.com"
 
 # Build Settings
 markdown: kramdown
