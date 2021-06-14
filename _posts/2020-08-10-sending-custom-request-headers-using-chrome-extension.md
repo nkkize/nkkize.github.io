@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sending Custom Headers in Chrome Extension
+title: Sending Custom Request Headers using Chrome Extension
 date: 2020-08-10 13:32:20 +0300
-description: Sending custom Headers in Chrome Extension
-img: i-js2.png
+description: Sending Custom Request Headers using Chrome Extension
+img: i-js2.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [chrome-extensions, javascript]
 ---
