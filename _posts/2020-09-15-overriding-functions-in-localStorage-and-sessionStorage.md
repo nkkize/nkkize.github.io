@@ -1,4 +1,13 @@
-### Background
+---
+layout: post
+title: Overriding items in local and session storage
+date: 2020-09-15 13:32:20 +0300
+description: Overriding items in local and session storage
+img: i-storage.png
+fig-caption: # Add figcaption (optional)
+tags: [chrome-extensions, javascript]
+---
+
 This blog post talks about overriding the setItem function of localStorage and sessionStorage.
 Since localStorage and sessionStorage are both instances of the Storage object, in order to override the setItem, you need to override the setItem of this interface.
 

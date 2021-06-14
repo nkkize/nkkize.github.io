@@ -1,4 +1,13 @@
-### Background
+---
+layout: post
+title: Regex Intro
+date: 2020-08-09 13:32:20 +0300
+description: Regex Intro
+img: i-js1.png
+fig-caption: # Add figcaption (optional)
+tags: [regex]
+---
+
 In this post I will explain how we can pass a java parameter into the javascript method which is executed using the JavaScriptExecutor interface provided by ther selenium webdriver.
 
 JavaScriptExecutor provides `executeScript` and `executeAsyncScript` methods to run any js script in the current page loaded by the selenium driver.

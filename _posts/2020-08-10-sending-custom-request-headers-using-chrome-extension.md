@@ -1,4 +1,13 @@
-### Background
+---
+layout: post
+title: Sending Custom Headers in Chrome Extension
+date: 2020-08-10 13:32:20 +0300
+description: Sending custom Headers in Chrome Extension
+img: i-js2.png
+fig-caption: # Add figcaption (optional)
+tags: [chrome-extensions, javascript]
+---
+
 This blog post talks about sending out custom headers in a web request based on some custom logic using chrome extension.
 
 There might be a requirement where we need to send some custom headers to request a web page using a chrome extension.
