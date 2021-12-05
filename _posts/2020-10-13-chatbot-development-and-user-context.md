@@ -7,7 +7,7 @@ img: i-chatbots.jpg
 fig-caption: # Add figcaption (optional)
 tags: [Chatbots, user-context]
 ---
-We are living in the era of technological advancement where we are able to communicate with the computers in a natural way using the natural language we speak. We use voice and chat based assistants and devices such as Google home and google Assistant, Amazon Alexa etc eveery day. Lets think about how these applications work. The natural language processing tools and services helps us to convert the voice to text, and process the text to understand the intent of what we speak. Based on the intent and other extracted informations from the said text, the assistant makes wise decisions to reply in a smarter way. But this is not enough, sometimes have to understand much more than this to reply .  
+We are living in the era of technological advancement where we are able to communicate with the computers in a natural way using the natural language we speak. We use voice and chat based assistants, and devices such as Google home, and google Assistant, Amazon Alexa etc. every day. Lets think about how these applications work. The natural language processing tools and services help us to convert the voice to text, and process the converted text to get the intent of what we speak. Based on the intent and other extracted informations from the text, the assistant makes wise decisions to reply back. But this is not enough, sometimes we have to understand much more than this to reply in a smarter way.  
 
 <img src="https://media3.giphy.com/media/Up7LOrG2RI89zDa0tC/200.gif?cid=ecf05e47y5d5drbust7n9zsu2lak3ezjb5v5hs3hbs1aotxj&rid=200.gif&ct=g" width="175px">
 
