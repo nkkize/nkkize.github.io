@@ -3,7 +3,7 @@ layout: post
 title: Chatbots and User Context
 date: 2020-10-13 13:32:20 +0300
 description: chatbots and user context
-img: i-chatbots.png
+img: i-chatbots.jpg
 fig-caption: # Add figcaption (optional)
 tags: [Chatbots, user-context]
 ---
