@@ -12,24 +12,22 @@ We are living in the era of technological advancement where we are able to commu
 <img src="https://media3.giphy.com/media/Up7LOrG2RI89zDa0tC/200.gif?cid=ecf05e47y5d5drbust7n9zsu2lak3ezjb5v5hs3hbs1aotxj&rid=200.gif&ct=g" width="175px">
 
 ### User Context
-We have to get a better context around the conversation to respond. However building context is not as easy as it seems . We have to see a number of factors before building the context. In this blog  I will talk about some of the most important aspects from where we can build the context. There are
+To reply back to the user in a natural and smart way, we have to get a better context around the conversation. However, building the context is not as easy as it seems. In this post I will talk about some of the important aspects from where we can build the context:
 
-1. Getting context from the user itself,
-2. Getting context from the environment
+1. Getting context from the user itself.
+2. Getting context from the environment.
 3. Getting context from the  history.
 
-Let’s take an example of a shopping assistant app from a shopping mall. This app sends you receipt when you purchase something from a retailer in the mall and helps you to keep your all receipts at one place. This app also sends you receipt once you purchase something from the online website of the retailers in the shopping mall and keeps you updated about the status of your order. This app occasionally sends you interesting offers when the sale is on in the mall.
-
-To deliver you a receipt, and keep you informed about the latest offers in the mall are examples of one way communication. This conversation is initiated from the app and the user is on the other hand on mute mode. But that is not the way the conversation happens the in the real world. An assistant app should understand the communication initiated by the user as well and answer to the user in a natural way.
-
-Let’s the user asks below questions to the assistant app:
+Let’s take an example of a shopping assistant app from a shopping mall where user can asks below questions to the assistant app:
 1. Where is my order?
 2. is my order shipped yet?
-3. How can I return this? 
+3. How can I return this item? 
 4. I ordered a blue shirt but I received a black one, can you refund? 
 5. How many reward points do I have?
 
-When user ask such questions- there is a lot of context already set for the app to answer the question. For example the app will know that the user is a customer who has ordered something in the mall or from online website. The user wants to get some information related to his previous purchases or recent offers.
+When user ask such questions - there is a lot of context already set for the app to answer the question: 
+- The app will know that the user is a customer who has ordered something in the mall or from online website.
+- The user wants to get some information related to his previous purchases or recent offers.
 
 With this high level context already set, the app knows that the user query is about the order purchased and not about the new offers. However, to best answer the user’s question the app can now build a more specific context around the conversation by using user’s conversation history, user’s location in the mall etc.  Eg. from the history, the app knows the user’s last order info, the reward points user earned, discount etc. The app can also ask more specific question to build this context. However asking the user specific question to get more context may not be always the best option since it will involve further understanding user’s response. 
 
