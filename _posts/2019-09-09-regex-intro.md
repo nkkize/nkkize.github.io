@@ -10,33 +10,33 @@ tags: [regex, regex-intro]
 ## Regex
 ### Aanchors:
 
-1. #### ^ 
+1. #### `^`
   This matches begining
   
-2. #### $
+2. #### `$`
   This matched end
  
  Example : ^The end$ : matches "The end"
  
 ### Quantifiers:
  
-1. #### *
+1. #### `*`
    This matches zero or more occurrences
-2. #### +
+2. #### `+`
    This matches one or more occurrences
-3. #### ?
+3. #### `?`
    This matched zero or one occurence
-4. #### {number}
+4. #### `{number}`
    This matches "number" of times occurenes
-5. #### {number, }
+5. #### `{number, }`
    This matches "number" of times to more occurenes
-6. #### {number1, number2}
+6. #### `{number1, number2}`
    This matches "number1" of times to "number2" of times occurenes
-7. #### (text)
+7. #### `(text)`
    followed by "text"
    
 ### OR operator
-1. #### | or []
+1. #### `| or []`
     1. `a(b|c)`
        - This matches a followed by b or c
     2. `a[bc]`
