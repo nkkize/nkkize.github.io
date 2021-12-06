@@ -43,32 +43,32 @@ tags: [regex, regex-intro]
        - This matches a followed by b or c
 
 ### Character classes
-1. #### \d 
+1. #### `\d`
    matches a single digit
-2. #### \w
+2. #### `\w`
    matches a word character including underscore
-3. #### \s
+3. #### `\s`
    matches a whitespace character, tabs, line breaks
-4. #### .
+4. #### `.`
    matches any character
-> 1. \D, \W, \S are there as their negations.
+> 1. `\D`, `\W`, `\S` are there as their negations.
 > 2. in order to match these characters: `^, $, *, +, ?, (, ), {, |, }, [, ]` we need to escape them using `\`.
 
 ### Flags
  regex usually comes like this: /regex/. At the end we can specify following:
- 1. /g (global): does not return after the first match. restart search from the previous match
- 2. /m (multi-line): will match the start and end of the line when '^' and '$' are used.
- 3. /i (insensitive): make the whole expression case-insensitive
+ 1. `/g` (global): does not return after the first match. restart search from the previous match
+ 2. `/m` (multi-line): will match the start and end of the line when '^' and '$' are used.
+ 3. `/i` (insensitive): make the whole expression case-insensitive
  
 ### Grouping
- 1. #### ()
+ 1. #### `()`
     this creates a capturing group.
- 2. #### ?: inside the patantesis ex: (?:chars)
+ 2. #### `?`: inside the patantesis ex: (?:chars)
     this disables the capturing group
- 3. ?<name>
+ 3. `?<name>`
     this puts a name to the group
  > `*` (zero or more occurrences), `+` (one or more occurrences), and `{}` are called greedy operatoers as they match as far as then can. 
  
  
-### \btext\b 
+### \btext\b
  1. This acts like a bounday. same as '^' and '$'
