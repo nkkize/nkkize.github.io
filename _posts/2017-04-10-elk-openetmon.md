@@ -10,7 +10,7 @@ tags: [elk, opennetmon]
 # elk-opennetmon
 elk stack integration with opennetmon for network performance visualization. We are using Filebeat to forward the logs to logstash for processing.
 
-#Setting up elk container
+### Setting up elk container
 (original source : http://elk-docker.readthedocs.io/). The following commands are used:
 ```
 $ sudo docker pull sebp/elk
@@ -23,7 +23,7 @@ Open ports description:
 3. 5000 - Logstash forwarder
 ```
 
-#Running ELK stack
+### Running ELK stack
 First verify elasticsearch is up. On base machine hit http://{base machine Ip}:9200.
 
 Download and install Filebeat on base machine and start the daemon
@@ -37,7 +37,7 @@ Edit filebeat configuration file. Replace the contents of the file from filebeat
 $ sudo vi /etc/filebeat/filebeat.yml
 ```
 
-Start filebeat daemon
+#### Start filebeat daemon
 ```
 $ /usr/bin/filebeat -e -c filebeat.yml -d "publish"
 ```
@@ -46,7 +46,7 @@ Edit logstash configuration file. Replace the contents of the file from logstash
 ```
 $ sudo vi /etc/logstash/conf.d/logstash.conf
 ```
-Start logstash daemon
+#### Start logstash daemon
 ```
 $ /opt/logstash/bin/logstash -f logstash.conf
 ```
