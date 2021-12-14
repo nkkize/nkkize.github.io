@@ -41,8 +41,8 @@ $ sudo vi /etc/filebeat/filebeat.yml
 ```
 $ /usr/bin/filebeat -e -c filebeat.yml -d "publish"
 ```
-Inside elk container, edit logstash configuration file to take input from Filebeat, process input and forward to elasticsearch and start the deamon.
-Edit logstash configuration file. Replace the contents of the file from logstash.conf file in this repository and save it.
+Inside elk container, we need to the edit logstash configuration file to take input from Filebeat, process input and forward to elasticsearch and start the deamon.  
+Using below command edit logstash configuration file and replace the contents of the file from logstash.conf file in this repository and save it.
 ```
 $ sudo vi /etc/logstash/conf.d/logstash.conf
 ```
