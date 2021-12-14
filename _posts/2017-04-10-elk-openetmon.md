@@ -32,7 +32,7 @@ $ curl -L -O https://download.elastic.co/beats/filebeat/filebeat_1.1.0_amd64.deb
 $ sudo dpkg -i filebeat_1.1.0_amd64.deb
 ```
 
-Edit filebeat configuration file. Replace the contents of the file from filebeat.yml file in this repository and save it.
+Edit filebeat configuration file. Replace the contents of the file from filebeat.yml file in this repository (https://github.com/nkkize/elk-opennetmon) and save it.
 ```
 $ sudo vi /etc/filebeat/filebeat.yml
 ```
@@ -42,7 +42,7 @@ $ sudo vi /etc/filebeat/filebeat.yml
 $ /usr/bin/filebeat -e -c filebeat.yml -d "publish"
 ```
 Inside elk container, we need to the edit logstash configuration file to take input from Filebeat, process input and forward to elasticsearch and start the deamon.  
-Using below command edit logstash configuration file and replace the contents of the file from logstash.conf file in this repository and save it.
+Using below command edit logstash configuration file and replace the contents of the file from logstash.conf file in this repository (https://github.com/nkkize/elk-opennetmon) and save it.
 ```
 $ sudo vi /etc/logstash/conf.d/logstash.conf
 ```
