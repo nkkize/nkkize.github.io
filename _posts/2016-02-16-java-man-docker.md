@@ -9,7 +9,8 @@ tags: [docker, java, maven]
 ---
 
 ## Creating and Publishing your own docker Image 
-In this post, we will create our own docker image and push it in docker hub.
+In this post, we will create our own docker image and push it in docker hub.  
+We will shipping the image prebuilt with jdk, and maven.
 
 ### Creating the image
 ```
