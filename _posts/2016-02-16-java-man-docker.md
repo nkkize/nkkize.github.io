@@ -87,7 +87,7 @@ eg
 docker commit -m "maven and java added" -a "Narender Kumar" e3f03f2f779d mavenimg:1.0
 
 ```
-You may push the image in docker hub
+You can push the image in docker hub now using below command
 ```
 sudo docker push {your_dockerhub_account_name}/{new_image_name}:{tag}
 ```
