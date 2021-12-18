@@ -9,7 +9,7 @@ tags: [docker, java, maven]
 ---
 
 ## Creating and Publishing your own docker Image 
-In this post, we will create our own basic docker image with java 1.8, maven 3.3. And we will learn how can we create our own custom images and push them in docker hub.
+In this post, we will create our own docker image and push it in docker hub.
 
 ### Creating the image
 ```
