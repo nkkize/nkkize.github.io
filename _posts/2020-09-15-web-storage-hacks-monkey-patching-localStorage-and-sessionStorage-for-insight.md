@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Web Storage Hacks: Monkey Patching localStorage and sessionStorage for Insight
+title: Web Storage Hacks - Monkey Patching localStorage and sessionStorage for Insight
 date: 2020-09-15 13:32:20 +0300
-description: Web Storage Hacks: Monkey Patching localStorage and sessionStorage for Insight
+description: Web Storage Hacks - Monkey Patching localStorage and sessionStorage for Insight
 img: i-storage.png
 fig-caption: # Add figcaption (optional)
 tags: [monkey-patching, localStorage, sessionStorage]
