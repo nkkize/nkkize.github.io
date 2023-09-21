@@ -7,7 +7,6 @@ img: i-storage.png
 fig-caption: # Add figcaption (optional)
 tags: [monkey-patching, localStorage, sessionStorage]
 ---
-### Enhancing Web Storage: A Guide to Monkey Patching localStorage and sessionStorage
 
 #### Introduction
 
@@ -40,9 +39,7 @@ Here's a breakdown of the key steps in the code we'll be using:
   })();
 </script>
 ```
-In this code:
-
-We save the original setItem method in _setItemStorage to preserve the original functionality. We override the setItem method of the Storage prototype. This method is used to set data in localStorage and sessionStorage. Inside the overridden setItem method, we check whether the storage being used is localStorage or sessionStorage and log the key-value pairs accordingly. Finally, we call the original _setItemStorage method with the provided arguments, preserving the original behavior of setting the key-value pair in the storage.
+In this code, we save the original `setItem` method in `_setItemStorage` to preserve the original functionality. We override the `setItem` method of the Storage prototype. Inside the overridden setItem method, we check whether the storage being used is localStorage or sessionStorage and log the key-value pairs accordingly. Finally, we call the original `_setItemStorage` method with the provided arguments, preserving the original behavior of setting the key-value pair in the storage.
 
 With this basic understanding of monkey patching, let's move on to how you can use it to enhance your web storage.
 
@@ -55,4 +52,5 @@ The provided code is a starting point, but you can customize it to meet your spe
 #### Conclusion
 Monkey patching localStorage and sessionStorage can significantly improve your development workflow by providing greater visibility into data storage. With custom logging in place, you'll be better equipped to diagnose issues, track data changes, and ensure the security of your web applications. However, keep in mind that monkey patching should be used judiciously. Overuse can lead to code that's difficult to maintain. Use it when it adds clear value to your development process and consider alternative approaches for more extensive modifications.
 
-Incorporate this technique into your toolkit and explore the possibilities of monkey patching for enhancing other parts of your web applications. Happy coding!
+Incorporate this technique into your toolkit and explore the possibilities of monkey patching for enhancing other parts of your web applications.  
+Happy coding!
