@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Demystifying Regex: A Dive into Anchors, Quantifiers, and More
+title: Demystifying Regex - A Dive into Anchors, Quantifiers, and More
 date: 2020-09-09 13:32:20 +0300
 description: Demystifying Regex: A Dive into Anchors, Quantifiers, and More
 img: i-regex.png
