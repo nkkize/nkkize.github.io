@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Demystifying Regex - A Dive into Anchors, Quantifiers, and More
+title: Regex Essentials
 date: 2020-09-09 13:32:20 +0300
-description: Demystifying Regex: A Dive into Anchors, Quantifiers, and More
+description: Regex Essentials
 img: i-regex.png
 fig-caption: # Add figcaption (optional)
 tags: [regex, regex-intro]
 ---
-## Demystifying Regex: A Dive into Anchors, Quantifiers, and More
+## Regex Essentials
 Regex, short for Regular Expressions, is a powerful tool for pattern matching and text manipulation. It's widely used in programming, data extraction, and text processing tasks. In this guide, we'll explore essential regex components, including anchors, quantifiers, character classes, flags, grouping, and the often-mysterious \b word boundary.
 
 ### Aanchors:
